@@ -1,0 +1,13 @@
+Django - Nodejs - interacts wit database, HTTP request
+
+uv venv
+
+    CREATING THE DJANGO PROJECT
+django-admin startproject momentum_trader
+python -m django startproject momentum_trader .
+
+ python manage.py runserver
+
+ CREATING THE APPS
+ python -m django startapp trading  
+  Then add them to the setting.py in the Project to connect them
